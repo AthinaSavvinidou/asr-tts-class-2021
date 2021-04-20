@@ -1,0 +1,16 @@
+$Spiel = Lokal │ Online │ kostenlos | Anleitung ;
+$Spielplatz =  The Skeld │ Mira│ Polus ;
+$Bewegung = rechts │ links │ oben │ unten │ vorn │ hinten ;
+$Auswahl  = Ankündigung │ Regelungen │ Urheber │ statistische Angaben│Kleidung ;
+$Taste = öffnet die Karte│ schließ die Karte│ Regelung │ Leiche │ use │ Tod │Falltür ;
+$Tür= Cafeteria │ Weapons │Oxygen Zwei │ Navigation │ Shields │ Admin │ Communications │ Storage │ Electrical │ Medbay │ Security │ Lower Engine │ Upper Engine │ Reactor ;
+$Sabotage = Electrical │ Oxygen Zwei  │ Communications │ Reactor ;
+
+( SENT – START $Taste  SENT – END )
+( SENT – START $Spiel [$Spielplatz] SENT – END )
+(SENT – START $Tür SENT – END )
+(SENT – START $Sabotage SENT – END )
+(SENT – START $Bewegung [$Tür] SENT – END )
+(SENT – START $Bewegung SENT – END ) 
+(SENT – START $Auswahl  SENT – END )
+

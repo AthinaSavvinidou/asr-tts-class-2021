@@ -1,0 +1,358 @@
+2021-06-19 17:24:17,222     INFO           main: Installation information:
+2021-06-19 17:24:17,222     INFO           main:   Merlin directory: /merlin
+2021-06-19 17:24:17,222     INFO           main:   PATH:
+2021-06-19 17:24:17,222     INFO           main:       /usr/local/sbin
+2021-06-19 17:24:17,222     INFO           main:       /usr/local/bin
+2021-06-19 17:24:17,222     INFO           main:       /usr/sbin
+2021-06-19 17:24:17,222     INFO           main:       /usr/bin
+2021-06-19 17:24:17,222     INFO           main:       /sbin
+2021-06-19 17:24:17,222     INFO           main:       /bin
+2021-06-19 17:24:17,222     INFO           main:   LD_LIBRARY_PATH:
+2021-06-19 17:24:17,222     INFO           main:   Python version: 3.6.9 (default, Jan 26 2021, 15:33:00) [GCC 8.4.0]
+2021-06-19 17:24:17,223     INFO           main:     PYTHONPATH:
+2021-06-19 17:24:17,223     INFO           main:   Numpy version: 1.19.5
+2021-06-19 17:24:17,223     INFO           main:   Theano version: 1.0.5
+2021-06-19 17:24:17,223     INFO           main:     THEANO_FLAGS: cuda.root=/usr/local/8.0,floatX=float32,on_unused_input=ignore
+2021-06-19 17:24:17,223     INFO           main:     device: cpu
+2021-06-19 17:24:17,229     INFO           main: Execution information:
+2021-06-19 17:24:17,231     INFO           main:   HOSTNAME: cd7cd3aa0385
+2021-06-19 17:24:17,231     INFO           main:   USER: root
+2021-06-19 17:24:17,231     INFO           main:   PID: 649
+2021-06-19 17:24:17,250     INFO           main: Input label dimension is 425
+2021-06-19 17:24:17,251     INFO           main: preparing label data (input) using standard HTS style labels
+2021-06-19 17:24:17,260     INFO         labels: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/acoustic_model/data/label_state_align/arctic_a0018.lab,  75 labels
+2021-06-19 17:24:17,261     INFO         labels: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/acoustic_model/data/label_state_align/arctic_a0019.lab, 220 labels
+2021-06-19 17:24:17,261     INFO         labels: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/acoustic_model/data/label_state_align/arctic_a0005.lab,  85 labels
+2021-06-19 17:24:17,263     INFO         labels: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/acoustic_model/data/label_state_align/arctic_a0014.lab, 180 labels
+2021-06-19 17:24:17,263     INFO         labels: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/acoustic_model/data/label_state_align/arctic_a0016.lab, 205 labels
+2021-06-19 17:24:17,264     INFO         labels: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/acoustic_model/data/label_state_align/arctic_a0017.lab, 275 labels
+2021-06-19 17:24:17,264     INFO         labels: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/acoustic_model/data/label_state_align/arctic_a0015.lab,  95 labels
+2021-06-19 17:24:17,264     INFO         labels: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/acoustic_model/data/label_state_align/arctic_a0007.lab, 200 labels
+2021-06-19 17:24:17,264     INFO         labels: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/acoustic_model/data/label_state_align/arctic_a0012.lab, 180 labels
+2021-06-19 17:24:17,266     INFO         labels: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/acoustic_model/data/label_state_align/arctic_a0021.lab, 160 labels
+2021-06-19 17:24:17,266     INFO         labels: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/acoustic_model/data/label_state_align/arctic_a0025.lab, 190 labels
+2021-06-19 17:24:17,267     INFO         labels: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/acoustic_model/data/label_state_align/arctic_a0022.lab, 270 labels
+2021-06-19 17:24:17,267     INFO         labels: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/acoustic_model/data/label_state_align/arctic_a0010.lab, 205 labels
+2021-06-19 17:24:17,267     INFO         labels: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/acoustic_model/data/label_state_align/arctic_a0026.lab, 185 labels
+2021-06-19 17:24:17,267     INFO         labels: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/acoustic_model/data/label_state_align/arctic_a0029.lab, 200 labels
+2021-06-19 17:24:17,267     INFO         labels: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/acoustic_model/data/label_state_align/arctic_a0009.lab, 200 labels
+2021-06-19 17:24:17,269     INFO         labels: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/acoustic_model/data/label_state_align/arctic_a0011.lab, 170 labels
+2021-06-19 17:24:17,269     INFO         labels: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/acoustic_model/data/label_state_align/arctic_a0028.lab,  85 labels
+2021-06-19 17:24:17,269     INFO         labels: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/acoustic_model/data/label_state_align/arctic_a0027.lab, 240 labels
+2021-06-19 17:24:17,269     INFO         labels: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/acoustic_model/data/label_state_align/arctic_a0004.lab, 140 labels
+2021-06-19 17:24:17,269     INFO         labels: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/acoustic_model/data/label_state_align/arctic_a0024.lab, 245 labels
+2021-06-19 17:24:17,270     INFO         labels: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/acoustic_model/data/label_state_align/arctic_a0002.lab, 210 labels
+2021-06-19 17:24:17,270     INFO         labels: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/acoustic_model/data/label_state_align/arctic_a0001.lab, 185 labels
+2021-06-19 17:24:17,270     INFO         labels: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/acoustic_model/data/label_state_align/arctic_a0008.lab, 120 labels
+2021-06-19 17:24:17,270     INFO         labels: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/acoustic_model/data/label_state_align/arctic_a0032.lab, 240 labels
+2021-06-19 17:24:17,271     INFO         labels: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/acoustic_model/data/label_state_align/arctic_a0030.lab,  70 labels
+2021-06-19 17:24:17,271     INFO         labels: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/acoustic_model/data/label_state_align/arctic_a0003.lab, 205 labels
+2021-06-19 17:24:17,272     INFO         labels: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/acoustic_model/data/label_state_align/arctic_a0013.lab, 260 labels
+2021-06-19 17:24:17,272     INFO         labels: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/acoustic_model/data/label_state_align/arctic_a0020.lab, 195 labels
+2021-06-19 17:24:17,275     INFO         labels: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/acoustic_model/data/label_state_align/arctic_a0031.lab, 130 labels
+2021-06-19 17:24:17,275     INFO         labels: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/acoustic_model/data/label_state_align/arctic_a0006.lab, 165 labels
+2021-06-19 17:24:17,278     INFO         labels: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/acoustic_model/data/label_state_align/arctic_a0023.lab, 360 labels
+2021-06-19 17:24:17,760     INFO         labels: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/acoustic_model/data/label_state_align/arctic_a0033.lab, 240 labels
+2021-06-19 17:24:18,077     INFO         labels: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/acoustic_model/data/label_state_align/arctic_a0034.lab, 220 labels
+2021-06-19 17:24:18,159     INFO         labels: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/acoustic_model/data/label_state_align/arctic_a0036.lab,  95 labels
+2021-06-19 17:24:18,163     INFO         labels: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/acoustic_model/data/label_state_align/arctic_a0037.lab, 140 labels
+2021-06-19 17:24:18,165     INFO         labels: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/acoustic_model/data/label_state_align/arctic_a0035.lab, 235 labels
+2021-06-19 17:24:18,223     INFO         labels: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/acoustic_model/data/label_state_align/arctic_a0038.lab, 105 labels
+2021-06-19 17:24:18,372     INFO         labels: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/acoustic_model/data/label_state_align/arctic_a0039.lab, 155 labels
+2021-06-19 17:24:18,383     INFO         labels: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/acoustic_model/data/label_state_align/arctic_a0040.lab, 155 labels
+2021-06-19 17:24:18,414     INFO         labels: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/acoustic_model/data/label_state_align/arctic_a0041.lab, 125 labels
+2021-06-19 17:24:18,482     INFO         labels: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/acoustic_model/data/label_state_align/arctic_a0042.lab, 170 labels
+2021-06-19 17:24:18,484     INFO         labels: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/acoustic_model/data/label_state_align/arctic_a0044.lab, 195 labels
+2021-06-19 17:24:18,485     INFO         labels: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/acoustic_model/data/label_state_align/arctic_a0043.lab, 230 labels
+2021-06-19 17:24:18,503     INFO         labels: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/acoustic_model/data/label_state_align/arctic_a0045.lab, 150 labels
+2021-06-19 17:24:18,519     INFO         labels: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/acoustic_model/data/label_state_align/arctic_a0046.lab, 175 labels
+2021-06-19 17:24:18,528     INFO         labels: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/acoustic_model/data/label_state_align/arctic_a0047.lab, 195 labels
+2021-06-19 17:24:18,597     INFO         labels: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/acoustic_model/data/label_state_align/arctic_a0049.lab, 180 labels
+2021-06-19 17:24:18,598     INFO         labels: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/acoustic_model/data/label_state_align/arctic_a0048.lab, 150 labels
+2021-06-19 17:24:18,610     INFO         labels: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/acoustic_model/data/label_state_align/arctic_a0050.lab, 240 labels
+2021-06-19 17:24:18,630     INFO         labels: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/acoustic_model/data/label_state_align/arctic_a0052.lab, 125 labels
+2021-06-19 17:24:18,676     INFO         labels: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/acoustic_model/data/label_state_align/arctic_a0051.lab, 235 labels
+2021-06-19 17:24:18,825     INFO         labels: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/acoustic_model/data/label_state_align/arctic_a0053.lab, 205 labels
+2021-06-19 17:24:18,848     INFO         labels: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/acoustic_model/data/label_state_align/arctic_a0054.lab, 100 labels
+2021-06-19 17:24:18,882     INFO         labels: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/acoustic_model/data/label_state_align/arctic_a0056.lab, 165 labels
+2021-06-19 17:24:18,891     INFO         labels: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/acoustic_model/data/label_state_align/arctic_a0055.lab, 250 labels
+2021-06-19 17:24:18,932     INFO         labels: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/acoustic_model/data/label_state_align/arctic_a0057.lab, 115 labels
+2021-06-19 17:24:18,945     INFO         labels: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/acoustic_model/data/label_state_align/arctic_a0058.lab, 235 labels
+2021-06-19 17:24:19,005     INFO         labels: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/acoustic_model/data/label_state_align/arctic_a0059.lab, 140 labels
+2021-06-19 17:24:19,030     INFO         labels: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/acoustic_model/data/label_state_align/arctic_a0060.lab, 110 labels
+2021-06-19 17:24:19,994     INFO  acoustic_norm: across 50 files found min/max values of length 425:
+2021-06-19 17:24:19,997     INFO  acoustic_norm:   min: [[ 0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.         -1.         -1.          0.          0.          0.
+  -1.         -1.         -1.         -1.         -1.         -1.
+  -1.         -1.         -1.         -1.         -1.         -1.
+  -1.         -1.         -1.          0.          0.          0.
+   0.         -1.         -1.         -1.         -1.         -1.
+  -1.         -1.          0.          0.          0.         -1.
+  -1.          1.         -1.          0.          0.          5.
+   3.          1.          0.03225806  0.03225806  1.          1.
+   1.          5.          0.01449275  0.01449275  0.01449275]]
+2021-06-19 17:24:20,000     INFO  acoustic_norm:   max: [[ 1.          1.          1.          1.          1.          1.
+   1.          1.          1.          1.          1.          1.
+   1.          1.          1.          1.          1.          1.
+   1.          1.          1.          1.          1.          1.
+   1.          1.          1.          1.          1.          1.
+   1.          1.          1.          1.          1.          1.
+   1.          1.          1.          1.          1.          1.
+   1.          1.          1.          1.          1.          1.
+   1.          1.          1.          1.          1.          1.
+   1.          1.          1.          1.          1.          1.
+   1.          1.          1.          1.          0.          1.
+   1.          1.          1.          1.          0.          1.
+   0.          0.          0.          1.          1.          1.
+   1.          1.          0.          1.          1.          1.
+   1.          1.          1.          1.          0.          1.
+   1.          0.          1.          1.          1.          1.
+   1.          1.          1.          1.          1.          1.
+   1.          1.          0.          1.          1.          1.
+   1.          1.          1.          1.          0.          1.
+   1.          1.          1.          1.          0.          1.
+   0.          0.          0.          1.          1.          1.
+   1.          1.          0.          1.          1.          1.
+   1.          1.          1.          1.          0.          1.
+   1.          0.          1.          1.          1.          1.
+   1.          1.          1.          1.          1.          1.
+   1.          1.          0.          1.          1.          1.
+   1.          1.          1.          1.          0.          1.
+   1.          1.          1.          1.          0.          1.
+   0.          0.          0.          1.          1.          1.
+   1.          1.          0.          1.          1.          1.
+   1.          1.          1.          1.          0.          1.
+   1.          0.          1.          1.          1.          1.
+   1.          1.          1.          1.          1.          1.
+   1.          1.          0.          1.          1.          1.
+   1.          1.          1.          1.          0.          1.
+   1.          1.          1.          1.          0.          1.
+   0.          0.          0.          1.          1.          1.
+   1.          1.          0.          1.          1.          1.
+   1.          1.          1.          1.          0.          1.
+   1.          0.          1.          1.          1.          1.
+   1.          1.          1.          1.          1.          1.
+   1.          1.          0.          1.          1.          1.
+   1.          1.          1.          1.          0.          1.
+   1.          1.          1.          1.          0.          1.
+   0.          0.          0.          1.          1.          1.
+   1.          1.          0.          1.          1.          1.
+   1.          1.          1.          1.          0.          1.
+   1.          0.          1.          1.          1.          1.
+   1.          1.          1.          1.          1.          1.
+   1.          1.          0.          1.          1.          1.
+   1.          1.          1.          1.          1.          1.
+   1.          1.          1.          1.          1.          1.
+   1.          1.          1.          1.          1.          1.
+   1.          1.          1.          1.          1.          1.
+   1.          1.          0.          1.          1.          0.
+   0.          0.          1.          1.          1.          1.
+   1.          0.          1.          1.          1.          1.
+   1.          1.          1.          1.          1.          1.
+   0.          1.          1.          1.          1.          1.
+   1.          1.          1.          1.          1.          0.
+   1.          1.          1.          1.          1.          1.
+   1.          1.          1.          1.          0.          1.
+   1.          6.          6.          1.          1.          6.
+   1.          1.          6.          5.          5.         18.
+  18.          9.         10.          5.          6.          4.
+   4.         16.         16.          1.          1.          6.
+   5.          5.         10.         10.          8.          7.
+   4.          5.          5.         18.          9.         18.
+  10.          3.         -1.         13.          8.         28.
+  13.          3.          1.          1.         31.          5.
+   5.         69.          0.87878788  1.          1.        ]]
+2021-06-19 17:24:20,215     INFO           main: saved 425 vectors to /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/acoustic_model/inter_module/label_norm_HTS_425.dat
+2021-06-19 17:24:20,216     INFO           main: creating acoustic (output) features
+2021-06-19 17:24:20,373     INFO  acoustic_comp: processing file    1 of    2 : /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/acoustic_model/inter_module/nn_mgc_lf0_vuv_bap_187/arctic_a0001.cmp
+2021-06-19 17:24:20,373     INFO  acoustic_comp: processing file    1 of    2 : /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/acoustic_model/inter_module/nn_mgc_lf0_vuv_bap_187/arctic_a0004.cmp
+2021-06-19 17:24:20,373     INFO  acoustic_comp: processing file    1 of    2 : /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/acoustic_model/inter_module/nn_mgc_lf0_vuv_bap_187/arctic_a0003.cmp
+2021-06-19 17:24:20,373     INFO  acoustic_comp: processing file    1 of    2 : /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/acoustic_model/inter_module/nn_mgc_lf0_vuv_bap_187/arctic_a0002.cmp
+2021-06-19 17:24:20,374     INFO  acoustic_comp: processing file    1 of    2 : /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/acoustic_model/inter_module/nn_mgc_lf0_vuv_bap_187/arctic_a0006.cmp
+2021-06-19 17:24:20,374     INFO  acoustic_comp: processing file    1 of    2 : /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/acoustic_model/inter_module/nn_mgc_lf0_vuv_bap_187/arctic_a0005.cmp
+2021-06-19 17:24:20,374     INFO  acoustic_comp: processing file    1 of    2 : /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/acoustic_model/inter_module/nn_mgc_lf0_vuv_bap_187/arctic_a0007.cmp
+2021-06-19 17:24:20,374     INFO  acoustic_comp: processing file    1 of    2 : /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/acoustic_model/inter_module/nn_mgc_lf0_vuv_bap_187/arctic_a0008.cmp
+2021-06-19 17:24:20,375     INFO  acoustic_comp: processing file    1 of    2 : /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/acoustic_model/inter_module/nn_mgc_lf0_vuv_bap_187/arctic_a0009.cmp
+2021-06-19 17:24:20,375     INFO  acoustic_comp: processing file    1 of    2 : /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/acoustic_model/inter_module/nn_mgc_lf0_vuv_bap_187/arctic_a0010.cmp
+2021-06-19 17:24:20,375     INFO  acoustic_comp: processing file    1 of    2 : /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/acoustic_model/inter_module/nn_mgc_lf0_vuv_bap_187/arctic_a0011.cmp
+2021-06-19 17:24:20,376     INFO  acoustic_comp: processing file    1 of    2 : /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/acoustic_model/inter_module/nn_mgc_lf0_vuv_bap_187/arctic_a0012.cmp
+2021-06-19 17:24:20,376     INFO  acoustic_comp: processing file    1 of    2 : /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/acoustic_model/inter_module/nn_mgc_lf0_vuv_bap_187/arctic_a0014.cmp
+2021-06-19 17:24:20,377     INFO  acoustic_comp: processing file    1 of    2 : /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/acoustic_model/inter_module/nn_mgc_lf0_vuv_bap_187/arctic_a0013.cmp
+2021-06-19 17:24:20,377     INFO  acoustic_comp: processing file    1 of    2 : /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/acoustic_model/inter_module/nn_mgc_lf0_vuv_bap_187/arctic_a0016.cmp
+2021-06-19 17:24:20,378     INFO  acoustic_comp: processing file    1 of    2 : /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/acoustic_model/inter_module/nn_mgc_lf0_vuv_bap_187/arctic_a0017.cmp
+2021-06-19 17:24:20,381     INFO  acoustic_comp: processing file    1 of    2 : /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/acoustic_model/inter_module/nn_mgc_lf0_vuv_bap_187/arctic_a0018.cmp
+2021-06-19 17:24:20,382     INFO  acoustic_comp: processing file    1 of    2 : /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/acoustic_model/inter_module/nn_mgc_lf0_vuv_bap_187/arctic_a0019.cmp
+2021-06-19 17:24:20,383     INFO  acoustic_comp: processing file    1 of    2 : /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/acoustic_model/inter_module/nn_mgc_lf0_vuv_bap_187/arctic_a0020.cmp
+2021-06-19 17:24:20,383     INFO  acoustic_comp: processing file    1 of    2 : /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/acoustic_model/inter_module/nn_mgc_lf0_vuv_bap_187/arctic_a0021.cmp
+2021-06-19 17:24:20,393     INFO  acoustic_comp: processing file    1 of    2 : /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/acoustic_model/inter_module/nn_mgc_lf0_vuv_bap_187/arctic_a0015.cmp
+2021-06-19 17:24:20,393     INFO  acoustic_comp: processing file    1 of    2 : /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/acoustic_model/inter_module/nn_mgc_lf0_vuv_bap_187/arctic_a0022.cmp
+2021-06-19 17:24:20,397     INFO  acoustic_comp: processing file    1 of    2 : /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/acoustic_model/inter_module/nn_mgc_lf0_vuv_bap_187/arctic_a0023.cmp
+2021-06-19 17:24:20,403     INFO  acoustic_comp: processing file    1 of    2 : /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/acoustic_model/inter_module/nn_mgc_lf0_vuv_bap_187/arctic_a0024.cmp
+2021-06-19 17:24:20,411     INFO  acoustic_comp: processing file    1 of    2 : /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/acoustic_model/inter_module/nn_mgc_lf0_vuv_bap_187/arctic_a0025.cmp
+2021-06-19 17:24:20,435     INFO  acoustic_comp: processing file    1 of    2 : /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/acoustic_model/inter_module/nn_mgc_lf0_vuv_bap_187/arctic_a0026.cmp
+2021-06-19 17:24:20,437     INFO  acoustic_comp: processing file    1 of    2 : /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/acoustic_model/inter_module/nn_mgc_lf0_vuv_bap_187/arctic_a0027.cmp
+2021-06-19 17:24:20,437     INFO  acoustic_comp: processing file    1 of    2 : /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/acoustic_model/inter_module/nn_mgc_lf0_vuv_bap_187/arctic_a0028.cmp
+2021-06-19 17:24:20,437     INFO  acoustic_comp: processing file    1 of    1 : /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/acoustic_model/inter_module/nn_mgc_lf0_vuv_bap_187/arctic_a0029.cmp
+2021-06-19 17:24:20,438     INFO  acoustic_comp: processing file    1 of    1 : /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/acoustic_model/inter_module/nn_mgc_lf0_vuv_bap_187/arctic_a0030.cmp
+2021-06-19 17:24:20,445     INFO  acoustic_comp: processing file    1 of    1 : /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/acoustic_model/inter_module/nn_mgc_lf0_vuv_bap_187/arctic_a0031.cmp
+2021-06-19 17:24:20,445     INFO  acoustic_comp: processing file    1 of    1 : /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/acoustic_model/inter_module/nn_mgc_lf0_vuv_bap_187/arctic_a0032.cmp
+2021-06-19 17:24:21,100     INFO  acoustic_comp: processing file    2 of    2 : /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/acoustic_model/inter_module/nn_mgc_lf0_vuv_bap_187/arctic_a0040.cmp
+2021-06-19 17:24:21,148     INFO  acoustic_comp: processing file    2 of    2 : /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/acoustic_model/inter_module/nn_mgc_lf0_vuv_bap_187/arctic_a0037.cmp
+2021-06-19 17:24:21,150     INFO  acoustic_comp: processing file    2 of    2 : /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/acoustic_model/inter_module/nn_mgc_lf0_vuv_bap_187/arctic_a0053.cmp
+2021-06-19 17:24:21,169     INFO  acoustic_comp: processing file    2 of    2 : /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/acoustic_model/inter_module/nn_mgc_lf0_vuv_bap_187/arctic_a0044.cmp
+2021-06-19 17:24:21,221     INFO  acoustic_comp: processing file    2 of    2 : /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/acoustic_model/inter_module/nn_mgc_lf0_vuv_bap_187/arctic_a0035.cmp
+2021-06-19 17:24:21,261     INFO  acoustic_comp: processing file    2 of    2 : /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/acoustic_model/inter_module/nn_mgc_lf0_vuv_bap_187/arctic_a0050.cmp
+2021-06-19 17:24:21,270     INFO  acoustic_comp: processing file    2 of    2 : /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/acoustic_model/inter_module/nn_mgc_lf0_vuv_bap_187/arctic_a0052.cmp
+2021-06-19 17:24:21,278     INFO  acoustic_comp: processing file    2 of    2 : /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/acoustic_model/inter_module/nn_mgc_lf0_vuv_bap_187/arctic_a0047.cmp
+2021-06-19 17:24:21,289     INFO  acoustic_comp: processing file    2 of    2 : /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/acoustic_model/inter_module/nn_mgc_lf0_vuv_bap_187/arctic_a0036.cmp
+2021-06-19 17:24:21,343     INFO  acoustic_comp: processing file    2 of    2 : /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/acoustic_model/inter_module/nn_mgc_lf0_vuv_bap_187/arctic_a0043.cmp
+2021-06-19 17:24:21,346     INFO  acoustic_comp: processing file    2 of    2 : /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/acoustic_model/inter_module/nn_mgc_lf0_vuv_bap_187/arctic_a0046.cmp
+2021-06-19 17:24:21,475     INFO  acoustic_comp: processing file    2 of    2 : /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/acoustic_model/inter_module/nn_mgc_lf0_vuv_bap_187/arctic_a0033.cmp
+2021-06-19 17:24:21,486     INFO  acoustic_comp: processing file    2 of    2 : /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/acoustic_model/inter_module/nn_mgc_lf0_vuv_bap_187/arctic_a0038.cmp
+2021-06-19 17:24:21,509     INFO  acoustic_comp: processing file    2 of    2 : /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/acoustic_model/inter_module/nn_mgc_lf0_vuv_bap_187/arctic_a0045.cmp
+2021-06-19 17:24:21,532     INFO  acoustic_comp: processing file    2 of    2 : /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/acoustic_model/inter_module/nn_mgc_lf0_vuv_bap_187/arctic_a0042.cmp
+2021-06-19 17:24:21,768     INFO  acoustic_comp: processing file    2 of    2 : /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/acoustic_model/inter_module/nn_mgc_lf0_vuv_bap_187/arctic_a0034.cmp
+2021-06-19 17:24:21,793     INFO  acoustic_comp: processing file    2 of    2 : /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/acoustic_model/inter_module/nn_mgc_lf0_vuv_bap_187/arctic_a0054.cmp
+2021-06-19 17:24:21,811     INFO  acoustic_comp: processing file    2 of    2 : /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/acoustic_model/inter_module/nn_mgc_lf0_vuv_bap_187/arctic_a0057.cmp
+2021-06-19 17:24:21,849     INFO  acoustic_comp: processing file    2 of    2 : /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/acoustic_model/inter_module/nn_mgc_lf0_vuv_bap_187/arctic_a0051.cmp
+2021-06-19 17:24:21,849     INFO  acoustic_comp: processing file    2 of    2 : /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/acoustic_model/inter_module/nn_mgc_lf0_vuv_bap_187/arctic_a0041.cmp
+2021-06-19 17:24:22,004     INFO  acoustic_comp: processing file    2 of    2 : /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/acoustic_model/inter_module/nn_mgc_lf0_vuv_bap_187/arctic_a0049.cmp
+2021-06-19 17:24:22,016     INFO  acoustic_comp: processing file    2 of    2 : /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/acoustic_model/inter_module/nn_mgc_lf0_vuv_bap_187/arctic_a0048.cmp
+2021-06-19 17:24:22,037     INFO  acoustic_comp: processing file    2 of    2 : /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/acoustic_model/inter_module/nn_mgc_lf0_vuv_bap_187/arctic_a0039.cmp
+2021-06-19 17:24:22,107     INFO  acoustic_comp: processing file    2 of    2 : /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/acoustic_model/inter_module/nn_mgc_lf0_vuv_bap_187/arctic_a0059.cmp
+2021-06-19 17:24:22,110     INFO  acoustic_comp: processing file    2 of    2 : /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/acoustic_model/inter_module/nn_mgc_lf0_vuv_bap_187/arctic_a0060.cmp
+2021-06-19 17:24:22,149     INFO  acoustic_comp: processing file    2 of    2 : /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/acoustic_model/inter_module/nn_mgc_lf0_vuv_bap_187/arctic_a0058.cmp
+2021-06-19 17:24:22,296     INFO  acoustic_comp: processing file    2 of    2 : /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/acoustic_model/inter_module/nn_mgc_lf0_vuv_bap_187/arctic_a0056.cmp
+2021-06-19 17:24:22,805     INFO  acoustic_comp: processing file    2 of    2 : /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/acoustic_model/inter_module/nn_mgc_lf0_vuv_bap_187/arctic_a0055.cmp
+2021-06-19 17:24:23,931     INFO           main: normalising acoustic (output) features using method MVN
+2021-06-19 17:24:24,000     INFO           main: saved MVN vectors to /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/acoustic_model/inter_module/norm_info__mgc_lf0_vuv_bap_187_MVN.dat
+2021-06-19 17:24:24,000     INFO           main: saved mgc variance vector to /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/acoustic_model/inter_module/var/mgc_180
+2021-06-19 17:24:24,000     INFO           main: saved lf0 variance vector to /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/acoustic_model/inter_module/var/lf0_3
+2021-06-19 17:24:24,000     INFO           main: saved vuv variance vector to /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/acoustic_model/inter_module/var/vuv_1
+2021-06-19 17:24:24,000     INFO           main: saved bap variance vector to /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/acoustic_model/inter_module/var/bap_3
+2021-06-19 17:24:24,012     INFO           main: label dimension is 425
+2021-06-19 17:24:24,012     INFO           main: training DNN
+2021-06-19 17:24:24,918     INFO main.train_DNN: building the model
+2021-06-19 17:24:25,778     INFO main.train_DNN: fine-tuning the DNN model
+2021-06-19 17:24:37,225     INFO main.train_DNN: epoch 1, validation error 181.323105, train error 182.265839  time spent 11.45
+2021-06-19 17:24:49,773     INFO main.train_DNN: epoch 2, validation error 179.055084, train error 176.128494  time spent 12.48
+2021-06-19 17:24:59,322     INFO main.train_DNN: epoch 3, validation error 178.116699, train error 174.185837  time spent 9.44
+2021-06-19 17:25:11,266     INFO main.train_DNN: epoch 4, validation error 177.612167, train error 173.135254  time spent 11.84
+2021-06-19 17:25:25,530     INFO main.train_DNN: epoch 5, validation error 177.288864, train error 172.423294  time spent 14.16
+2021-06-19 17:25:39,147     INFO main.train_DNN: epoch 6, validation error 177.058502, train error 171.878342  time spent 13.51
+2021-06-19 17:25:51,589     INFO main.train_DNN: epoch 7, validation error 176.875656, train error 171.427505  time spent 12.33
+2021-06-19 17:26:03,869     INFO main.train_DNN: epoch 8, validation error 176.702805, train error 171.027481  time spent 12.17
+2021-06-19 17:26:17,994     INFO main.train_DNN: epoch 9, validation error 176.507339, train error 170.643463  time spent 14.01
+2021-06-19 17:26:29,953     INFO main.train_DNN: epoch 10, validation error 176.275787, train error 170.246704  time spent 11.85
+2021-06-19 17:26:41,243     INFO main.train_DNN: epoch 11, validation error 176.066284, train error 170.298645  time spent 11.18
+2021-06-19 17:26:54,461     INFO main.train_DNN: epoch 12, validation error 175.188721, train error 168.846039  time spent 13.11
+2021-06-19 17:27:07,777     INFO main.train_DNN: epoch 13, validation error 174.859695, train error 168.014282  time spent 13.20
+2021-06-19 17:27:19,831     INFO main.train_DNN: epoch 14, validation error 174.671463, train error 167.548111  time spent 11.93
+2021-06-19 17:27:31,380     INFO main.train_DNN: epoch 15, validation error 174.549973, train error 167.315384  time spent 11.44
+2021-06-19 17:27:44,054     INFO main.train_DNN: epoch 16, validation error 174.496643, train error 167.191925  time spent 12.57
+2021-06-19 17:27:56,585     INFO main.train_DNN: epoch 17, validation error 174.458832, train error 167.126312  time spent 12.38
+2021-06-19 17:28:10,272     INFO main.train_DNN: epoch 18, validation error 174.446320, train error 167.092987  time spent 13.58
+2021-06-19 17:28:21,798     INFO main.train_DNN: epoch 19, validation error 174.439865, train error 167.076309  time spent 11.42
+2021-06-19 17:28:35,871     INFO main.train_DNN: epoch 20, validation error 174.437378, train error 167.067642  time spent 13.96
+2021-06-19 17:28:50,341     INFO main.train_DNN: epoch 21, validation error 174.436264, train error 167.063278  time spent 14.36
+2021-06-19 17:29:03,310     INFO main.train_DNN: epoch 22, validation error 174.435730, train error 167.061157  time spent 12.85
+2021-06-19 17:29:15,115     INFO main.train_DNN: epoch 23, validation error 174.435471, train error 167.060059  time spent 11.69
+2021-06-19 17:29:27,275     INFO main.train_DNN: epoch 24, validation error 174.435349, train error 167.059525  time spent 12.05
+2021-06-19 17:29:38,642     INFO main.train_DNN: epoch 25, validation error 174.435272, train error 167.059250  time spent 11.26
+2021-06-19 17:29:38,745     INFO main.train_DNN: overall  training time: 5.22m validation error 174.435272
+2021-06-19 17:29:38,759     INFO           main: generating from DNN
+2021-06-19 17:29:38,766     INFO dnn_generation: generating    1 of   10: /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/acoustic_model/inter_module/nn_no_silence_lab_norm_425/arctic_a0051.lab
+2021-06-19 17:29:38,878     INFO dnn_generation: generating    2 of   10: /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/acoustic_model/inter_module/nn_no_silence_lab_norm_425/arctic_a0052.lab
+2021-06-19 17:29:38,991     INFO dnn_generation: generating    3 of   10: /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/acoustic_model/inter_module/nn_no_silence_lab_norm_425/arctic_a0053.lab
+2021-06-19 17:29:39,199     INFO dnn_generation: generating    4 of   10: /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/acoustic_model/inter_module/nn_no_silence_lab_norm_425/arctic_a0054.lab
+2021-06-19 17:29:39,337     INFO dnn_generation: generating    5 of   10: /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/acoustic_model/inter_module/nn_no_silence_lab_norm_425/arctic_a0055.lab
+2021-06-19 17:29:39,498     INFO dnn_generation: generating    6 of   10: /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/acoustic_model/inter_module/nn_no_silence_lab_norm_425/arctic_a0056.lab
+2021-06-19 17:29:39,659     INFO dnn_generation: generating    7 of   10: /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/acoustic_model/inter_module/nn_no_silence_lab_norm_425/arctic_a0057.lab
+2021-06-19 17:29:39,782     INFO dnn_generation: generating    8 of   10: /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/acoustic_model/inter_module/nn_no_silence_lab_norm_425/arctic_a0058.lab
+2021-06-19 17:29:39,970     INFO dnn_generation: generating    9 of   10: /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/acoustic_model/inter_module/nn_no_silence_lab_norm_425/arctic_a0059.lab
+2021-06-19 17:29:40,133     INFO dnn_generation: generating   10 of   10: /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/acoustic_model/inter_module/nn_no_silence_lab_norm_425/arctic_a0060.lab
+2021-06-19 17:29:40,277     INFOparam_generation: processing    1 of   10: /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/acoustic_model/gen/feed_forward_4_tanh/arctic_a0051.cmp
+2021-06-19 17:29:40,297     INFOparam_generation: processing    2 of   10: /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/acoustic_model/gen/feed_forward_4_tanh/arctic_a0052.cmp
+2021-06-19 17:29:40,309     INFOparam_generation: processing    3 of   10: /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/acoustic_model/gen/feed_forward_4_tanh/arctic_a0053.cmp
+2021-06-19 17:29:40,318     INFOparam_generation: processing    4 of   10: /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/acoustic_model/gen/feed_forward_4_tanh/arctic_a0054.cmp
+2021-06-19 17:29:40,326     INFOparam_generation: processing    5 of   10: /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/acoustic_model/gen/feed_forward_4_tanh/arctic_a0055.cmp
+2021-06-19 17:29:40,337     INFOparam_generation: processing    6 of   10: /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/acoustic_model/gen/feed_forward_4_tanh/arctic_a0056.cmp
+2021-06-19 17:29:40,346     INFOparam_generation: processing    7 of   10: /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/acoustic_model/gen/feed_forward_4_tanh/arctic_a0057.cmp
+2021-06-19 17:29:40,353     INFOparam_generation: processing    8 of   10: /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/acoustic_model/gen/feed_forward_4_tanh/arctic_a0058.cmp
+2021-06-19 17:29:40,364     INFOparam_generation: processing    9 of   10: /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/acoustic_model/gen/feed_forward_4_tanh/arctic_a0059.cmp
+2021-06-19 17:29:40,371     INFOparam_generation: processing   10 of   10: /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/acoustic_model/gen/feed_forward_4_tanh/arctic_a0060.cmp
+2021-06-19 17:29:40,379     INFO           main: reconstructing waveform(s)
+2021-06-19 17:29:40,379     INFO wav_generation: creating waveform for    1 of   10: arctic_a0051
+2021-06-19 17:29:41,144     INFO wav_generation: creating waveform for    2 of   10: arctic_a0052
+2021-06-19 17:29:41,607     INFO wav_generation: creating waveform for    3 of   10: arctic_a0053
+2021-06-19 17:29:42,246     INFO wav_generation: creating waveform for    4 of   10: arctic_a0054
+2021-06-19 17:29:42,636     INFO wav_generation: creating waveform for    5 of   10: arctic_a0055
+2021-06-19 17:29:43,443     INFO wav_generation: creating waveform for    6 of   10: arctic_a0056
+2021-06-19 17:29:43,975     INFO wav_generation: creating waveform for    7 of   10: arctic_a0057
+2021-06-19 17:29:44,432     INFO wav_generation: creating waveform for    8 of   10: arctic_a0058
+2021-06-19 17:29:45,087     INFO wav_generation: creating waveform for    9 of   10: arctic_a0059
+2021-06-19 17:29:45,559     INFO wav_generation: creating waveform for   10 of   10: arctic_a0060
+2021-06-19 17:29:46,100     INFO           main: calculating MCD
+2021-06-19 17:29:46,490     INFO           main: Develop: DNN -- MCD: 6.578 dB; BAP: 0.242 dB; F0:- RMSE: 19.485 Hz; CORR: 0.533; VUV: 11.367%
+2021-06-19 17:29:46,490     INFO           main: Test   : DNN -- MCD: 6.593 dB; BAP: 0.258 dB; F0:- RMSE: 15.274 Hz; CORR: 0.703; VUV: 8.735%

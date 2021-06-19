@@ -1,0 +1,321 @@
+2021-06-19 17:23:10,548     INFO           main: Installation information:
+2021-06-19 17:23:10,548     INFO           main:   Merlin directory: /merlin
+2021-06-19 17:23:10,548     INFO           main:   PATH:
+2021-06-19 17:23:10,548     INFO           main:       /usr/local/sbin
+2021-06-19 17:23:10,548     INFO           main:       /usr/local/bin
+2021-06-19 17:23:10,548     INFO           main:       /usr/sbin
+2021-06-19 17:23:10,548     INFO           main:       /usr/bin
+2021-06-19 17:23:10,548     INFO           main:       /sbin
+2021-06-19 17:23:10,548     INFO           main:       /bin
+2021-06-19 17:23:10,548     INFO           main:   LD_LIBRARY_PATH:
+2021-06-19 17:23:10,548     INFO           main:   Python version: 3.6.9 (default, Jan 26 2021, 15:33:00) [GCC 8.4.0]
+2021-06-19 17:23:10,548     INFO           main:     PYTHONPATH:
+2021-06-19 17:23:10,548     INFO           main:   Numpy version: 1.19.5
+2021-06-19 17:23:10,548     INFO           main:   Theano version: 1.0.5
+2021-06-19 17:23:10,549     INFO           main:     THEANO_FLAGS: cuda.root=/usr/local/8.0,floatX=float32,on_unused_input=ignore
+2021-06-19 17:23:10,549     INFO           main:     device: cpu
+2021-06-19 17:23:10,556     INFO           main: Execution information:
+2021-06-19 17:23:10,558     INFO           main:   HOSTNAME: cd7cd3aa0385
+2021-06-19 17:23:10,558     INFO           main:   USER: root
+2021-06-19 17:23:10,559     INFO           main:   PID: 173
+2021-06-19 17:23:10,577     INFO           main: Input label dimension is 416
+2021-06-19 17:23:10,577     INFO           main: preparing label data (input) using standard HTS style labels
+2021-06-19 17:23:10,595     INFO         labels: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/data/label_state_align/arctic_a0004.lab, 140 labels
+2021-06-19 17:23:10,595     INFO         labels: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/data/label_state_align/arctic_a0009.lab, 200 labels
+2021-06-19 17:23:10,596     INFO         labels: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/data/label_state_align/arctic_a0007.lab, 200 labels
+2021-06-19 17:23:10,596     INFO         labels: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/data/label_state_align/arctic_a0012.lab, 180 labels
+2021-06-19 17:23:10,596     INFO         labels: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/data/label_state_align/arctic_a0030.lab,  70 labels
+2021-06-19 17:23:10,597     INFO         labels: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/data/label_state_align/arctic_a0011.lab, 170 labels
+2021-06-19 17:23:10,598     INFO         labels: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/data/label_state_align/arctic_a0025.lab, 190 labels
+2021-06-19 17:23:10,598     INFO         labels: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/data/label_state_align/arctic_a0020.lab, 195 labels
+2021-06-19 17:23:10,598     INFO         labels: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/data/label_state_align/arctic_a0008.lab, 120 labels
+2021-06-19 17:23:10,599     INFO         labels: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/data/label_state_align/arctic_a0018.lab,  75 labels
+2021-06-19 17:23:10,599     INFO         labels: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/data/label_state_align/arctic_a0029.lab, 200 labels
+2021-06-19 17:23:10,600     INFO         labels: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/data/label_state_align/arctic_a0021.lab, 160 labels
+2021-06-19 17:23:10,600     INFO         labels: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/data/label_state_align/arctic_a0010.lab, 205 labels
+2021-06-19 17:23:10,600     INFO         labels: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/data/label_state_align/arctic_a0015.lab,  95 labels
+2021-06-19 17:23:10,605     INFO         labels: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/data/label_state_align/arctic_a0027.lab, 240 labels
+2021-06-19 17:23:10,606     INFO         labels: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/data/label_state_align/arctic_a0019.lab, 220 labels
+2021-06-19 17:23:10,608     INFO         labels: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/data/label_state_align/arctic_a0006.lab, 165 labels
+2021-06-19 17:23:10,609     INFO         labels: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/data/label_state_align/arctic_a0028.lab,  85 labels
+2021-06-19 17:23:10,610     INFO         labels: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/data/label_state_align/arctic_a0003.lab, 205 labels
+2021-06-19 17:23:10,610     INFO         labels: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/data/label_state_align/arctic_a0022.lab, 270 labels
+2021-06-19 17:23:10,611     INFO         labels: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/data/label_state_align/arctic_a0026.lab, 185 labels
+2021-06-19 17:23:10,611     INFO         labels: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/data/label_state_align/arctic_a0013.lab, 260 labels
+2021-06-19 17:23:10,617     INFO         labels: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/data/label_state_align/arctic_a0017.lab, 275 labels
+2021-06-19 17:23:10,617     INFO         labels: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/data/label_state_align/arctic_a0023.lab, 360 labels
+2021-06-19 17:23:10,617     INFO         labels: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/data/label_state_align/arctic_a0002.lab, 210 labels
+2021-06-19 17:23:10,617     INFO         labels: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/data/label_state_align/arctic_a0031.lab, 130 labels
+2021-06-19 17:23:10,622     INFO         labels: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/data/label_state_align/arctic_a0016.lab, 205 labels
+2021-06-19 17:23:10,623     INFO         labels: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/data/label_state_align/arctic_a0032.lab, 240 labels
+2021-06-19 17:23:10,630     INFO         labels: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/data/label_state_align/arctic_a0001.lab, 185 labels
+2021-06-19 17:23:10,632     INFO         labels: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/data/label_state_align/arctic_a0014.lab, 180 labels
+2021-06-19 17:23:10,638     INFO         labels: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/data/label_state_align/arctic_a0024.lab, 245 labels
+2021-06-19 17:23:10,638     INFO         labels: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/data/label_state_align/arctic_a0005.lab,  85 labels
+2021-06-19 17:23:10,836     INFO         labels: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/data/label_state_align/arctic_a0033.lab, 240 labels
+2021-06-19 17:23:10,865     INFO         labels: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/data/label_state_align/arctic_a0035.lab, 235 labels
+2021-06-19 17:23:10,881     INFO         labels: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/data/label_state_align/arctic_a0034.lab, 220 labels
+2021-06-19 17:23:10,937     INFO         labels: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/data/label_state_align/arctic_a0037.lab, 140 labels
+2021-06-19 17:23:10,988     INFO         labels: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/data/label_state_align/arctic_a0038.lab, 105 labels
+2021-06-19 17:23:10,995     INFO         labels: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/data/label_state_align/arctic_a0036.lab,  95 labels
+2021-06-19 17:23:11,037     INFO         labels: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/data/label_state_align/arctic_a0039.lab, 155 labels
+2021-06-19 17:23:11,062     INFO         labels: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/data/label_state_align/arctic_a0040.lab, 155 labels
+2021-06-19 17:23:11,094     INFO         labels: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/data/label_state_align/arctic_a0041.lab, 125 labels
+2021-06-19 17:23:11,152     INFO         labels: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/data/label_state_align/arctic_a0042.lab, 170 labels
+2021-06-19 17:23:11,164     INFO         labels: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/data/label_state_align/arctic_a0043.lab, 230 labels
+2021-06-19 17:23:11,227     INFO         labels: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/data/label_state_align/arctic_a0045.lab, 150 labels
+2021-06-19 17:23:11,261     INFO         labels: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/data/label_state_align/arctic_a0044.lab, 195 labels
+2021-06-19 17:23:11,294     INFO         labels: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/data/label_state_align/arctic_a0046.lab, 175 labels
+2021-06-19 17:23:11,351     INFO         labels: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/data/label_state_align/arctic_a0048.lab, 150 labels
+2021-06-19 17:23:11,377     INFO         labels: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/data/label_state_align/arctic_a0047.lab, 195 labels
+2021-06-19 17:23:11,389     INFO         labels: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/data/label_state_align/arctic_a0049.lab, 180 labels
+2021-06-19 17:23:11,559     INFO         labels: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/data/label_state_align/arctic_a0050.lab, 240 labels
+2021-06-19 17:23:11,649     INFO         labels: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/data/label_state_align/arctic_a0052.lab, 125 labels
+2021-06-19 17:23:11,657     INFO         labels: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/data/label_state_align/arctic_a0051.lab, 235 labels
+2021-06-19 17:23:11,673     INFO         labels: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/data/label_state_align/arctic_a0053.lab, 205 labels
+2021-06-19 17:23:11,688     INFO         labels: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/data/label_state_align/arctic_a0054.lab, 100 labels
+2021-06-19 17:23:11,696     INFO         labels: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/data/label_state_align/arctic_a0055.lab, 250 labels
+2021-06-19 17:23:11,708     INFO         labels: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/data/label_state_align/arctic_a0057.lab, 115 labels
+2021-06-19 17:23:11,718     INFO         labels: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/data/label_state_align/arctic_a0056.lab, 165 labels
+2021-06-19 17:23:11,747     INFO         labels: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/data/label_state_align/arctic_a0058.lab, 235 labels
+2021-06-19 17:23:11,762     INFO         labels: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/data/label_state_align/arctic_a0059.lab, 140 labels
+2021-06-19 17:23:11,785     INFO         labels: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/data/label_state_align/arctic_a0060.lab, 110 labels
+2021-06-19 17:23:12,729     INFO  acoustic_norm: across 50 files found min/max values of length 416:
+2021-06-19 17:23:12,733     INFO  acoustic_norm:   min: [[ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0. -1. -1.  0.  0.  0.
+  -1. -1. -1. -1. -1. -1. -1. -1. -1. -1. -1. -1. -1. -1. -1.  0.  0.  0.
+   0. -1. -1. -1. -1. -1. -1. -1.  0.  0.  0. -1. -1.  1. -1.  0.  0.  5.
+   3.  1.]]
+2021-06-19 17:23:12,737     INFO  acoustic_norm:   max: [[ 1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.
+   1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.
+   1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.
+   1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  0.  1.  1.  1.  1.  1.  0.  1.
+   0.  0.  0.  1.  1.  1.  1.  1.  0.  1.  1.  1.  1.  1.  1.  1.  0.  1.
+   1.  0.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  0.  1.  1.  1.
+   1.  1.  1.  1.  0.  1.  1.  1.  1.  1.  0.  1.  0.  0.  0.  1.  1.  1.
+   1.  1.  0.  1.  1.  1.  1.  1.  1.  1.  0.  1.  1.  0.  1.  1.  1.  1.
+   1.  1.  1.  1.  1.  1.  1.  1.  0.  1.  1.  1.  1.  1.  1.  1.  0.  1.
+   1.  1.  1.  1.  0.  1.  0.  0.  0.  1.  1.  1.  1.  1.  0.  1.  1.  1.
+   1.  1.  1.  1.  0.  1.  1.  0.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.
+   1.  1.  0.  1.  1.  1.  1.  1.  1.  1.  0.  1.  1.  1.  1.  1.  0.  1.
+   0.  0.  0.  1.  1.  1.  1.  1.  0.  1.  1.  1.  1.  1.  1.  1.  0.  1.
+   1.  0.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  0.  1.  1.  1.
+   1.  1.  1.  1.  0.  1.  1.  1.  1.  1.  0.  1.  0.  0.  0.  1.  1.  1.
+   1.  1.  0.  1.  1.  1.  1.  1.  1.  1.  0.  1.  1.  0.  1.  1.  1.  1.
+   1.  1.  1.  1.  1.  1.  1.  1.  0.  1.  1.  1.  1.  1.  1.  1.  1.  1.
+   1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.
+   1.  1.  0.  1.  1.  0.  0.  0.  1.  1.  1.  1.  1.  0.  1.  1.  1.  1.
+   1.  1.  1.  1.  1.  1.  0.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  0.
+   1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  0.  1.  1.  6.  6.  1.  1.  6.
+   1.  1.  6.  5.  5. 18. 18.  9. 10.  5.  6.  4.  4. 16. 16.  1.  1.  6.
+   5.  5. 10. 10.  8.  7.  4.  5.  5. 18.  9. 18. 10.  3. -1. 13.  8. 28.
+  13.  3.]]
+2021-06-19 17:23:12,751     INFO           main: saved 416 vectors to /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/inter_module/label_norm_HTS_416.dat
+2021-06-19 17:23:12,751     INFO           main: creating duration (output) features
+2021-06-19 17:23:12,752     INFO            dur: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/data/label_state_align/arctic_a0001.lab, 185 labels
+2021-06-19 17:23:12,771     INFO            dur: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/data/label_state_align/arctic_a0002.lab, 210 labels
+2021-06-19 17:23:12,793     INFO            dur: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/data/label_state_align/arctic_a0003.lab, 205 labels
+2021-06-19 17:23:12,814     INFO            dur: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/data/label_state_align/arctic_a0004.lab, 140 labels
+2021-06-19 17:23:12,828     INFO            dur: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/data/label_state_align/arctic_a0005.lab,  85 labels
+2021-06-19 17:23:12,837     INFO            dur: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/data/label_state_align/arctic_a0006.lab, 165 labels
+2021-06-19 17:23:12,854     INFO            dur: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/data/label_state_align/arctic_a0007.lab, 200 labels
+2021-06-19 17:23:12,875     INFO            dur: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/data/label_state_align/arctic_a0008.lab, 120 labels
+2021-06-19 17:23:12,887     INFO            dur: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/data/label_state_align/arctic_a0009.lab, 200 labels
+2021-06-19 17:23:12,908     INFO            dur: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/data/label_state_align/arctic_a0010.lab, 205 labels
+2021-06-19 17:23:12,930     INFO            dur: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/data/label_state_align/arctic_a0011.lab, 170 labels
+2021-06-19 17:23:12,948     INFO            dur: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/data/label_state_align/arctic_a0012.lab, 180 labels
+2021-06-19 17:23:12,967     INFO            dur: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/data/label_state_align/arctic_a0013.lab, 260 labels
+2021-06-19 17:23:12,994     INFO            dur: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/data/label_state_align/arctic_a0014.lab, 180 labels
+2021-06-19 17:23:13,012     INFO            dur: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/data/label_state_align/arctic_a0015.lab,  95 labels
+2021-06-19 17:23:13,022     INFO            dur: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/data/label_state_align/arctic_a0016.lab, 205 labels
+2021-06-19 17:23:13,043     INFO            dur: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/data/label_state_align/arctic_a0017.lab, 275 labels
+2021-06-19 17:23:13,071     INFO            dur: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/data/label_state_align/arctic_a0018.lab,  75 labels
+2021-06-19 17:23:13,079     INFO            dur: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/data/label_state_align/arctic_a0019.lab, 220 labels
+2021-06-19 17:23:13,102     INFO            dur: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/data/label_state_align/arctic_a0020.lab, 195 labels
+2021-06-19 17:23:13,121     INFO            dur: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/data/label_state_align/arctic_a0021.lab, 160 labels
+2021-06-19 17:23:13,138     INFO            dur: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/data/label_state_align/arctic_a0022.lab, 270 labels
+2021-06-19 17:23:13,171     INFO            dur: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/data/label_state_align/arctic_a0023.lab, 360 labels
+2021-06-19 17:23:13,218     INFO            dur: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/data/label_state_align/arctic_a0024.lab, 245 labels
+2021-06-19 17:23:13,250     INFO            dur: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/data/label_state_align/arctic_a0025.lab, 190 labels
+2021-06-19 17:23:13,275     INFO            dur: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/data/label_state_align/arctic_a0026.lab, 185 labels
+2021-06-19 17:23:13,295     INFO            dur: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/data/label_state_align/arctic_a0027.lab, 240 labels
+2021-06-19 17:23:13,320     INFO            dur: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/data/label_state_align/arctic_a0028.lab,  85 labels
+2021-06-19 17:23:13,329     INFO            dur: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/data/label_state_align/arctic_a0029.lab, 200 labels
+2021-06-19 17:23:13,350     INFO            dur: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/data/label_state_align/arctic_a0030.lab,  70 labels
+2021-06-19 17:23:13,358     INFO            dur: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/data/label_state_align/arctic_a0031.lab, 130 labels
+2021-06-19 17:23:13,375     INFO            dur: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/data/label_state_align/arctic_a0032.lab, 240 labels
+2021-06-19 17:23:13,407     INFO            dur: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/data/label_state_align/arctic_a0033.lab, 240 labels
+2021-06-19 17:23:13,436     INFO            dur: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/data/label_state_align/arctic_a0034.lab, 220 labels
+2021-06-19 17:23:13,458     INFO            dur: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/data/label_state_align/arctic_a0035.lab, 235 labels
+2021-06-19 17:23:13,481     INFO            dur: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/data/label_state_align/arctic_a0036.lab,  95 labels
+2021-06-19 17:23:13,492     INFO            dur: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/data/label_state_align/arctic_a0037.lab, 140 labels
+2021-06-19 17:23:13,514     INFO            dur: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/data/label_state_align/arctic_a0038.lab, 105 labels
+2021-06-19 17:23:13,530     INFO            dur: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/data/label_state_align/arctic_a0039.lab, 155 labels
+2021-06-19 17:23:13,555     INFO            dur: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/data/label_state_align/arctic_a0040.lab, 155 labels
+2021-06-19 17:23:13,579     INFO            dur: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/data/label_state_align/arctic_a0041.lab, 125 labels
+2021-06-19 17:23:13,599     INFO            dur: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/data/label_state_align/arctic_a0042.lab, 170 labels
+2021-06-19 17:23:13,620     INFO            dur: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/data/label_state_align/arctic_a0043.lab, 230 labels
+2021-06-19 17:23:13,643     INFO            dur: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/data/label_state_align/arctic_a0044.lab, 195 labels
+2021-06-19 17:23:13,663     INFO            dur: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/data/label_state_align/arctic_a0045.lab, 150 labels
+2021-06-19 17:23:13,679     INFO            dur: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/data/label_state_align/arctic_a0046.lab, 175 labels
+2021-06-19 17:23:13,696     INFO            dur: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/data/label_state_align/arctic_a0047.lab, 195 labels
+2021-06-19 17:23:13,717     INFO            dur: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/data/label_state_align/arctic_a0048.lab, 150 labels
+2021-06-19 17:23:13,732     INFO            dur: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/data/label_state_align/arctic_a0049.lab, 180 labels
+2021-06-19 17:23:13,750     INFO            dur: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/data/label_state_align/arctic_a0050.lab, 240 labels
+2021-06-19 17:23:13,775     INFO            dur: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/data/label_state_align/arctic_a0051.lab, 235 labels
+2021-06-19 17:23:13,799     INFO            dur: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/data/label_state_align/arctic_a0052.lab, 125 labels
+2021-06-19 17:23:13,812     INFO            dur: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/data/label_state_align/arctic_a0053.lab, 205 labels
+2021-06-19 17:23:13,834     INFO            dur: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/data/label_state_align/arctic_a0054.lab, 100 labels
+2021-06-19 17:23:13,844     INFO            dur: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/data/label_state_align/arctic_a0055.lab, 250 labels
+2021-06-19 17:23:13,870     INFO            dur: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/data/label_state_align/arctic_a0056.lab, 165 labels
+2021-06-19 17:23:13,889     INFO            dur: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/data/label_state_align/arctic_a0057.lab, 115 labels
+2021-06-19 17:23:13,904     INFO            dur: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/data/label_state_align/arctic_a0058.lab, 235 labels
+2021-06-19 17:23:13,934     INFO            dur: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/data/label_state_align/arctic_a0059.lab, 140 labels
+2021-06-19 17:23:13,953     INFO            dur: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/data/label_state_align/arctic_a0060.lab, 110 labels
+2021-06-19 17:23:13,967     INFO           main: creating acoustic (output) features
+2021-06-19 17:23:14,109     INFO  acoustic_comp: processing file    1 of    2 : /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/inter_module/nn_dur_5/arctic_a0001.cmp
+2021-06-19 17:23:14,109     INFO  acoustic_comp: processing file    1 of    2 : /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/inter_module/nn_dur_5/arctic_a0003.cmp
+2021-06-19 17:23:14,109     INFO  acoustic_comp: processing file    1 of    2 : /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/inter_module/nn_dur_5/arctic_a0002.cmp
+2021-06-19 17:23:14,109     INFO  acoustic_comp: processing file    1 of    2 : /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/inter_module/nn_dur_5/arctic_a0004.cmp
+2021-06-19 17:23:14,110     INFO  acoustic_comp: processing file    1 of    2 : /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/inter_module/nn_dur_5/arctic_a0005.cmp
+2021-06-19 17:23:14,110     INFO  acoustic_comp: processing file    1 of    2 : /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/inter_module/nn_dur_5/arctic_a0006.cmp
+2021-06-19 17:23:14,110     INFO  acoustic_comp: processing file    2 of    2 : /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/inter_module/nn_dur_5/arctic_a0036.cmp
+2021-06-19 17:23:14,110     INFO  acoustic_comp: processing file    2 of    2 : /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/inter_module/nn_dur_5/arctic_a0035.cmp
+2021-06-19 17:23:14,111     INFO  acoustic_comp: processing file    2 of    2 : /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/inter_module/nn_dur_5/arctic_a0033.cmp
+2021-06-19 17:23:14,111     INFO  acoustic_comp: processing file    2 of    2 : /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/inter_module/nn_dur_5/arctic_a0034.cmp
+2021-06-19 17:23:14,111     INFO  acoustic_comp: processing file    2 of    2 : /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/inter_module/nn_dur_5/arctic_a0037.cmp
+2021-06-19 17:23:14,110     INFO  acoustic_comp: processing file    1 of    2 : /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/inter_module/nn_dur_5/arctic_a0007.cmp
+2021-06-19 17:23:14,110     INFO  acoustic_comp: processing file    1 of    2 : /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/inter_module/nn_dur_5/arctic_a0008.cmp
+2021-06-19 17:23:14,111     INFO  acoustic_comp: processing file    2 of    2 : /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/inter_module/nn_dur_5/arctic_a0038.cmp
+2021-06-19 17:23:14,111     INFO  acoustic_comp: processing file    1 of    2 : /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/inter_module/nn_dur_5/arctic_a0012.cmp
+2021-06-19 17:23:14,111     INFO  acoustic_comp: processing file    1 of    2 : /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/inter_module/nn_dur_5/arctic_a0009.cmp
+2021-06-19 17:23:14,111     INFO  acoustic_comp: processing file    2 of    2 : /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/inter_module/nn_dur_5/arctic_a0044.cmp
+2021-06-19 17:23:14,111     INFO  acoustic_comp: processing file    1 of    2 : /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/inter_module/nn_dur_5/arctic_a0010.cmp
+2021-06-19 17:23:14,112     INFO  acoustic_comp: processing file    2 of    2 : /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/inter_module/nn_dur_5/arctic_a0040.cmp
+2021-06-19 17:23:14,112     INFO  acoustic_comp: processing file    2 of    2 : /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/inter_module/nn_dur_5/arctic_a0041.cmp
+2021-06-19 17:23:14,112     INFO  acoustic_comp: processing file    2 of    2 : /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/inter_module/nn_dur_5/arctic_a0039.cmp
+2021-06-19 17:23:14,112     INFO  acoustic_comp: processing file    1 of    2 : /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/inter_module/nn_dur_5/arctic_a0011.cmp
+2021-06-19 17:23:14,112     INFO  acoustic_comp: processing file    2 of    2 : /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/inter_module/nn_dur_5/arctic_a0042.cmp
+2021-06-19 17:23:14,112     INFO  acoustic_comp: processing file    1 of    2 : /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/inter_module/nn_dur_5/arctic_a0013.cmp
+2021-06-19 17:23:14,113     INFO  acoustic_comp: processing file    2 of    2 : /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/inter_module/nn_dur_5/arctic_a0045.cmp
+2021-06-19 17:23:14,112     INFO  acoustic_comp: processing file    1 of    2 : /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/inter_module/nn_dur_5/arctic_a0014.cmp
+2021-06-19 17:23:14,113     INFO  acoustic_comp: processing file    2 of    2 : /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/inter_module/nn_dur_5/arctic_a0043.cmp
+2021-06-19 17:23:14,113     INFO  acoustic_comp: processing file    1 of    2 : /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/inter_module/nn_dur_5/arctic_a0017.cmp
+2021-06-19 17:23:14,113     INFO  acoustic_comp: processing file    1 of    2 : /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/inter_module/nn_dur_5/arctic_a0016.cmp
+2021-06-19 17:23:14,113     INFO  acoustic_comp: processing file    1 of    2 : /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/inter_module/nn_dur_5/arctic_a0020.cmp
+2021-06-19 17:23:14,113     INFO  acoustic_comp: processing file    1 of    2 : /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/inter_module/nn_dur_5/arctic_a0015.cmp
+2021-06-19 17:23:14,113     INFO  acoustic_comp: processing file    1 of    2 : /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/inter_module/nn_dur_5/arctic_a0018.cmp
+2021-06-19 17:23:14,114     INFO  acoustic_comp: processing file    2 of    2 : /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/inter_module/nn_dur_5/arctic_a0052.cmp
+2021-06-19 17:23:14,113     INFO  acoustic_comp: processing file    1 of    2 : /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/inter_module/nn_dur_5/arctic_a0019.cmp
+2021-06-19 17:23:14,114     INFO  acoustic_comp: processing file    2 of    2 : /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/inter_module/nn_dur_5/arctic_a0046.cmp
+2021-06-19 17:23:14,114     INFO  acoustic_comp: processing file    2 of    2 : /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/inter_module/nn_dur_5/arctic_a0049.cmp
+2021-06-19 17:23:14,114     INFO  acoustic_comp: processing file    2 of    2 : /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/inter_module/nn_dur_5/arctic_a0047.cmp
+2021-06-19 17:23:14,114     INFO  acoustic_comp: processing file    1 of    2 : /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/inter_module/nn_dur_5/arctic_a0024.cmp
+2021-06-19 17:23:14,114     INFO  acoustic_comp: processing file    2 of    2 : /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/inter_module/nn_dur_5/arctic_a0050.cmp
+2021-06-19 17:23:14,114     INFO  acoustic_comp: processing file    2 of    2 : /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/inter_module/nn_dur_5/arctic_a0051.cmp
+2021-06-19 17:23:14,114     INFO  acoustic_comp: processing file    2 of    2 : /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/inter_module/nn_dur_5/arctic_a0056.cmp
+2021-06-19 17:23:14,114     INFO  acoustic_comp: processing file    2 of    2 : /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/inter_module/nn_dur_5/arctic_a0048.cmp
+2021-06-19 17:23:14,114     INFO  acoustic_comp: processing file    1 of    2 : /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/inter_module/nn_dur_5/arctic_a0021.cmp
+2021-06-19 17:23:14,115     INFO  acoustic_comp: processing file    1 of    2 : /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/inter_module/nn_dur_5/arctic_a0027.cmp
+2021-06-19 17:23:14,115     INFO  acoustic_comp: processing file    1 of    2 : /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/inter_module/nn_dur_5/arctic_a0022.cmp
+2021-06-19 17:23:14,115     INFO  acoustic_comp: processing file    2 of    2 : /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/inter_module/nn_dur_5/arctic_a0059.cmp
+2021-06-19 17:23:14,115     INFO  acoustic_comp: processing file    1 of    1 : /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/inter_module/nn_dur_5/arctic_a0030.cmp
+2021-06-19 17:23:14,115     INFO  acoustic_comp: processing file    1 of    1 : /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/inter_module/nn_dur_5/arctic_a0029.cmp
+2021-06-19 17:23:14,115     INFO  acoustic_comp: processing file    2 of    2 : /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/inter_module/nn_dur_5/arctic_a0053.cmp
+2021-06-19 17:23:14,115     INFO  acoustic_comp: processing file    1 of    2 : /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/inter_module/nn_dur_5/arctic_a0026.cmp
+2021-06-19 17:23:14,115     INFO  acoustic_comp: processing file    1 of    1 : /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/inter_module/nn_dur_5/arctic_a0032.cmp
+2021-06-19 17:23:14,115     INFO  acoustic_comp: processing file    1 of    2 : /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/inter_module/nn_dur_5/arctic_a0025.cmp
+2021-06-19 17:23:14,115     INFO  acoustic_comp: processing file    1 of    2 : /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/inter_module/nn_dur_5/arctic_a0023.cmp
+2021-06-19 17:23:14,115     INFO  acoustic_comp: processing file    2 of    2 : /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/inter_module/nn_dur_5/arctic_a0054.cmp
+2021-06-19 17:23:14,115     INFO  acoustic_comp: processing file    1 of    2 : /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/inter_module/nn_dur_5/arctic_a0028.cmp
+2021-06-19 17:23:14,116     INFO  acoustic_comp: processing file    2 of    2 : /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/inter_module/nn_dur_5/arctic_a0058.cmp
+2021-06-19 17:23:14,116     INFO  acoustic_comp: processing file    2 of    2 : /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/inter_module/nn_dur_5/arctic_a0057.cmp
+2021-06-19 17:23:14,116     INFO  acoustic_comp: processing file    2 of    2 : /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/inter_module/nn_dur_5/arctic_a0060.cmp
+2021-06-19 17:23:14,116     INFO  acoustic_comp: processing file    1 of    1 : /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/inter_module/nn_dur_5/arctic_a0031.cmp
+2021-06-19 17:23:14,116     INFO  acoustic_comp: processing file    2 of    2 : /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/inter_module/nn_dur_5/arctic_a0055.cmp
+2021-06-19 17:23:14,440     INFO           main: normalising acoustic (output) features using method MVN
+2021-06-19 17:23:14,457     INFO           main: saved MVN vectors to /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/inter_module/norm_info__dur_5_MVN.dat
+2021-06-19 17:23:14,457     INFO           main: saved dur variance vector to /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/inter_module/var/dur_5
+2021-06-19 17:23:14,471     INFO           main: label dimension is 416
+2021-06-19 17:23:14,471     INFO           main: training DNN
+2021-06-19 17:23:14,483     INFO main.train_DNN: building the model
+2021-06-19 17:23:24,028     INFO main.train_DNN: fine-tuning the DNN model
+2021-06-19 17:23:26,073     INFO main.train_DNN: epoch 1, validation error 4.646924, train error 4.886358  time spent 2.04
+2021-06-19 17:23:28,684     INFO main.train_DNN: epoch 2, validation error 4.483300, train error 4.616899  time spent 2.58
+2021-06-19 17:23:30,810     INFO main.train_DNN: epoch 3, validation error 4.385480, train error 4.464172  time spent 2.05
+2021-06-19 17:23:32,673     INFO main.train_DNN: epoch 4, validation error 4.320605, train error 4.358634  time spent 1.78
+2021-06-19 17:23:34,380     INFO main.train_DNN: epoch 5, validation error 4.275645, train error 4.278897  time spent 1.60
+2021-06-19 17:23:37,009     INFO main.train_DNN: epoch 6, validation error 4.243674, train error 4.215261  time spent 2.52
+2021-06-19 17:23:38,501     INFO main.train_DNN: epoch 7, validation error 4.220348, train error 4.162427  time spent 1.33
+2021-06-19 17:23:39,796     INFO main.train_DNN: epoch 8, validation error 4.202775, train error 4.117213  time spent 1.20
+2021-06-19 17:23:41,277     INFO main.train_DNN: epoch 9, validation error 4.189023, train error 4.077591  time spent 1.40
+2021-06-19 17:23:43,698     INFO main.train_DNN: epoch 10, validation error 4.177833, train error 4.042209  time spent 2.34
+2021-06-19 17:23:45,515     INFO main.train_DNN: epoch 11, validation error 4.173734, train error 4.039408  time spent 1.72
+2021-06-19 17:23:48,145     INFO main.train_DNN: epoch 12, validation error 4.170361, train error 3.911834  time spent 2.47
+2021-06-19 17:23:50,021     INFO main.train_DNN: epoch 13, validation error 4.166811, train error 3.867490  time spent 1.80
+2021-06-19 17:23:53,153     INFO main.train_DNN: epoch 14, validation error 4.140535, train error 3.833287  time spent 3.03
+2021-06-19 17:23:54,965     INFO main.train_DNN: epoch 15, validation error 4.137030, train error 3.810771  time spent 1.72
+2021-06-19 17:23:56,457     INFO main.train_DNN: epoch 16, validation error 4.136002, train error 3.803070  time spent 1.41
+2021-06-19 17:23:58,785     INFO main.train_DNN: epoch 17, validation error 4.135983, train error 3.799652  time spent 2.25
+2021-06-19 17:24:00,454     INFO main.train_DNN: epoch 18, validation error 4.135769, train error 3.797926  time spent 1.60
+2021-06-19 17:24:02,901     INFO main.train_DNN: epoch 19, validation error 4.135637, train error 3.797056  time spent 2.36
+2021-06-19 17:24:04,646     INFO main.train_DNN: epoch 20, validation error 4.135571, train error 3.796622  time spent 1.66
+2021-06-19 17:24:06,113     INFO main.train_DNN: epoch 21, validation error 4.135539, train error 3.796404  time spent 1.40
+2021-06-19 17:24:08,516     INFO main.train_DNN: epoch 22, validation error 4.135523, train error 3.796296  time spent 2.32
+2021-06-19 17:24:09,890     INFO main.train_DNN: epoch 23, validation error 4.135515, train error 3.796242  time spent 1.29
+2021-06-19 17:24:11,197     INFO main.train_DNN: epoch 24, validation error 4.135511, train error 3.796215  time spent 1.23
+2021-06-19 17:24:14,070     INFO main.train_DNN: epoch 25, validation error 4.135509, train error 3.796203  time spent 2.78
+2021-06-19 17:24:14,174     INFO main.train_DNN: overall  training time: 0.84m validation error 4.135509
+2021-06-19 17:24:14,178     INFO           main: generating from DNN
+2021-06-19 17:24:14,190     INFO dnn_generation: generating    1 of   10: /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/inter_module/nn_no_silence_lab_norm_416/arctic_a0051.lab
+2021-06-19 17:24:14,838     INFO dnn_generation: generating    2 of   10: /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/inter_module/nn_no_silence_lab_norm_416/arctic_a0052.lab
+2021-06-19 17:24:14,902     INFO dnn_generation: generating    3 of   10: /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/inter_module/nn_no_silence_lab_norm_416/arctic_a0053.lab
+2021-06-19 17:24:14,994     INFO dnn_generation: generating    4 of   10: /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/inter_module/nn_no_silence_lab_norm_416/arctic_a0054.lab
+2021-06-19 17:24:15,085     INFO dnn_generation: generating    5 of   10: /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/inter_module/nn_no_silence_lab_norm_416/arctic_a0055.lab
+2021-06-19 17:24:15,224     INFO dnn_generation: generating    6 of   10: /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/inter_module/nn_no_silence_lab_norm_416/arctic_a0056.lab
+2021-06-19 17:24:15,363     INFO dnn_generation: generating    7 of   10: /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/inter_module/nn_no_silence_lab_norm_416/arctic_a0057.lab
+2021-06-19 17:24:15,445     INFO dnn_generation: generating    8 of   10: /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/inter_module/nn_no_silence_lab_norm_416/arctic_a0058.lab
+2021-06-19 17:24:15,582     INFO dnn_generation: generating    9 of   10: /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/inter_module/nn_no_silence_lab_norm_416/arctic_a0059.lab
+2021-06-19 17:24:15,717     INFO dnn_generation: generating   10 of   10: /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/inter_module/nn_no_silence_lab_norm_416/arctic_a0060.lab
+2021-06-19 17:24:15,831     INFOparam_generation: processing    1 of   10: /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/gen/feed_forward_4_tanh/arctic_a0051.cmp
+2021-06-19 17:24:15,832     INFOparam_generation: processing    2 of   10: /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/gen/feed_forward_4_tanh/arctic_a0052.cmp
+2021-06-19 17:24:15,832     INFOparam_generation: processing    3 of   10: /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/gen/feed_forward_4_tanh/arctic_a0053.cmp
+2021-06-19 17:24:15,832     INFOparam_generation: processing    4 of   10: /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/gen/feed_forward_4_tanh/arctic_a0054.cmp
+2021-06-19 17:24:15,832     INFOparam_generation: processing    5 of   10: /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/gen/feed_forward_4_tanh/arctic_a0055.cmp
+2021-06-19 17:24:15,849     INFOparam_generation: processing    6 of   10: /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/gen/feed_forward_4_tanh/arctic_a0056.cmp
+2021-06-19 17:24:15,850     INFOparam_generation: processing    7 of   10: /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/gen/feed_forward_4_tanh/arctic_a0057.cmp
+2021-06-19 17:24:15,850     INFOparam_generation: processing    8 of   10: /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/gen/feed_forward_4_tanh/arctic_a0058.cmp
+2021-06-19 17:24:15,850     INFOparam_generation: processing    9 of   10: /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/gen/feed_forward_4_tanh/arctic_a0059.cmp
+2021-06-19 17:24:15,850     INFOparam_generation: processing   10 of   10: /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/gen/feed_forward_4_tanh/arctic_a0060.cmp
+2021-06-19 17:24:15,851     INFO            dur: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/data/label_state_align/arctic_a0051.lab, 235 labels
+2021-06-19 17:24:15,872     INFO            dur: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/data/label_state_align/arctic_a0052.lab, 125 labels
+2021-06-19 17:24:15,884     INFO            dur: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/data/label_state_align/arctic_a0053.lab, 205 labels
+2021-06-19 17:24:15,896     INFO            dur: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/data/label_state_align/arctic_a0054.lab, 100 labels
+2021-06-19 17:24:15,906     INFO            dur: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/data/label_state_align/arctic_a0055.lab, 250 labels
+2021-06-19 17:24:15,909     INFO            dur: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/data/label_state_align/arctic_a0056.lab, 165 labels
+2021-06-19 17:24:15,911     INFO            dur: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/data/label_state_align/arctic_a0057.lab, 115 labels
+2021-06-19 17:24:15,913     INFO            dur: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/data/label_state_align/arctic_a0058.lab, 235 labels
+2021-06-19 17:24:15,915     INFO            dur: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/data/label_state_align/arctic_a0059.lab, 140 labels
+2021-06-19 17:24:15,917     INFO            dur: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/duration_model/data/label_state_align/arctic_a0060.lab, 110 labels
+2021-06-19 17:24:15,918     INFO           main: calculating MCD
+2021-06-19 17:24:16,041     INFO           main: Develop: DNN -- RMSE: 6.716 frames/phoneme; CORR: 0.640; 
+2021-06-19 17:24:16,041     INFO           main: Test: DNN -- RMSE: 7.809 frames/phoneme; CORR: 0.567; 

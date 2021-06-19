@@ -1,0 +1,45 @@
+2021-06-19 17:29:47,593     INFO           main: Installation information:
+2021-06-19 17:29:47,593     INFO           main:   Merlin directory: /merlin
+2021-06-19 17:29:47,593     INFO           main:   PATH:
+2021-06-19 17:29:47,593     INFO           main:       /usr/local/sbin
+2021-06-19 17:29:47,593     INFO           main:       /usr/local/bin
+2021-06-19 17:29:47,593     INFO           main:       /usr/sbin
+2021-06-19 17:29:47,593     INFO           main:       /usr/bin
+2021-06-19 17:29:47,593     INFO           main:       /sbin
+2021-06-19 17:29:47,593     INFO           main:       /bin
+2021-06-19 17:29:47,593     INFO           main:   LD_LIBRARY_PATH:
+2021-06-19 17:29:47,593     INFO           main:   Python version: 3.6.9 (default, Jan 26 2021, 15:33:00) [GCC 8.4.0]
+2021-06-19 17:29:47,593     INFO           main:     PYTHONPATH:
+2021-06-19 17:29:47,593     INFO           main:   Numpy version: 1.19.5
+2021-06-19 17:29:47,593     INFO           main:   Theano version: 1.0.5
+2021-06-19 17:29:47,593     INFO           main:     THEANO_FLAGS: cuda.root=/usr/local/8.0,floatX=float32,on_unused_input=ignore
+2021-06-19 17:29:47,594     INFO           main:     device: cpu
+2021-06-19 17:29:47,601     INFO           main: Execution information:
+2021-06-19 17:29:47,603     INFO           main:   HOSTNAME: cd7cd3aa0385
+2021-06-19 17:29:47,603     INFO           main:   USER: root
+2021-06-19 17:29:47,603     INFO           main:   PID: 1437
+2021-06-19 17:29:47,625     INFO           main: Input label dimension is 416
+2021-06-19 17:29:47,626     INFO           main: preparing label data (input) using standard HTS style labels
+2021-06-19 17:29:47,646     INFO         labels: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/test_synthesis/prompt-lab/arctic_a0056.lab, 165 labels
+2021-06-19 17:29:47,646     INFO         labels: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/test_synthesis/prompt-lab/arctic_a0059.lab, 140 labels
+2021-06-19 17:29:47,646     INFO         labels: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/test_synthesis/prompt-lab/arctic_a0057.lab, 115 labels
+2021-06-19 17:29:47,652     INFO         labels: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/test_synthesis/prompt-lab/arctic_a0060.lab, 110 labels
+2021-06-19 17:29:47,656     INFO         labels: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/test_synthesis/prompt-lab/arctic_a0058.lab, 235 labels
+2021-06-19 17:29:47,975     INFO  acoustic_norm: Loaded min max values from the trained data for feature dimension of 416
+2021-06-19 17:29:47,993     INFO           main: label dimension is 416
+2021-06-19 17:29:47,993     INFO           main: generating from DNN
+2021-06-19 17:29:48,001     INFO dnn_generation: generating    1 of    5: /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/test_synthesis/gen-lab/arctic_a0056.lab
+2021-06-19 17:29:48,503     INFO dnn_generation: generating    2 of    5: /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/test_synthesis/gen-lab/arctic_a0057.lab
+2021-06-19 17:29:48,569     INFO dnn_generation: generating    3 of    5: /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/test_synthesis/gen-lab/arctic_a0058.lab
+2021-06-19 17:29:48,634     INFO dnn_generation: generating    4 of    5: /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/test_synthesis/gen-lab/arctic_a0059.lab
+2021-06-19 17:29:48,735     INFO dnn_generation: generating    5 of    5: /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/test_synthesis/gen-lab/arctic_a0060.lab
+2021-06-19 17:29:48,808     INFOparam_generation: processing    1 of    5: /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/test_synthesis/gen-lab/arctic_a0056.cmp
+2021-06-19 17:29:48,808     INFOparam_generation: processing    2 of    5: /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/test_synthesis/gen-lab/arctic_a0057.cmp
+2021-06-19 17:29:48,809     INFOparam_generation: processing    3 of    5: /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/test_synthesis/gen-lab/arctic_a0058.cmp
+2021-06-19 17:29:48,809     INFOparam_generation: processing    4 of    5: /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/test_synthesis/gen-lab/arctic_a0059.cmp
+2021-06-19 17:29:48,813     INFOparam_generation: processing    5 of    5: /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/test_synthesis/gen-lab/arctic_a0060.cmp
+2021-06-19 17:29:48,813     INFO            dur: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/test_synthesis/prompt-lab/arctic_a0056.lab, 165 labels
+2021-06-19 17:29:48,815     INFO            dur: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/test_synthesis/prompt-lab/arctic_a0057.lab, 115 labels
+2021-06-19 17:29:48,816     INFO            dur: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/test_synthesis/prompt-lab/arctic_a0058.lab, 235 labels
+2021-06-19 17:29:48,831     INFO            dur: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/test_synthesis/prompt-lab/arctic_a0059.lab, 140 labels
+2021-06-19 17:29:48,832     INFO            dur: loaded /merlin/egs/slt_arctic/s1/experiments/slt_arctic_demo/test_synthesis/prompt-lab/arctic_a0060.lab, 110 labels

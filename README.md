@@ -10,19 +10,19 @@ EVALUATION RESULTS
   TTS PROJECT:
   Table of contents
 1. [SYNTHESIS PART](#introduction)
-2. [PHRASES(#paragraph1) 
+2. [PHRASES](#paragraph1) 
 3. [EVALUATION RESULTS](#paragraph2)
 
-## This is the introduction <a name="introduction"></a>
+## SYNTHESIS PART <a name="introduction"></a>
 In order to test the competence of the project in this part, 5 phrases have been generated using slt_arctic_demo and slt_arctic_full_voice through merlin engine.
 
 
-## Some paragraph <a name="paragraph1"></a>
+## PHRASES <a name="paragraph1"></a>
 List of phrases: 1.Use button. 
                  2.Move right shields. 
                  3.Select author.
                  4. Game instructions Polus. 
                  5.Play Mira for free.
 
-## Another paragraph <a name="paragraph2"></a>
+## EVALUATION RESULTS <a name="paragraph2"></a>
 The second paragraph text  

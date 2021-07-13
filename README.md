@@ -36,3 +36,7 @@ MEAN OPINION SCORE           1
 5.Play Mira for free	       1	                 1
 ---------------------------------------------------
 MEAN OPINION SCORE           1      
+|  SLT_ARCTIC_DEMO  | Evaluator 1	 | Evaluator 2 |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |

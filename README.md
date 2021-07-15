@@ -40,3 +40,13 @@ List of phrases: 1.Use button.
 |     3.Select author               | 1                  | 1                  |
 |     4. Game instructions Polus    | 1                  | 1                  |
 |     5.Play Mira   for free        | 1                  | 1                  |
+
+1.Intelligibilty
+
+|     SLT_ARCTIC_FULL_VOICE         |     Evaluator 1    |     Evaluator 2    |
+|-----------------------------------|--------------------|--------------------|
+|     1.Use button                  | 4                  | 5                  |
+|     2.Move right shields          | 4                  | 5                  |
+|     3.Select author               | 4                  | 4                  |
+|     4. Game instructions Polus    | 5                  | 5                  |
+|     5.Play Mira   for free        | 5                  | 5                  |

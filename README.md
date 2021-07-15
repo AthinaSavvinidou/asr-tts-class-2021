@@ -25,7 +25,7 @@ List of phrases: 1.Use button.
 |     3.Select author               | 1                  | 1                  |
 |     4. Game instructions Polus    | 1                  | 1                  |
 |     5.Play Mira   for free        | 1                  | 1                  |
----------------------------------------------------
+
      
    
 2. Naturalness
@@ -36,7 +36,7 @@ List of phrases: 1.Use button.
 |     3.Select author               | 1                  | 1                  |
 |     4. Game instructions Polus    | 1                  | 1                  |
 |     5.Play Mira   for free        | 1                  | 1                  |
-MEAN OPINION SCORE           1      
+    
 
  1. Intelligibility
 |     SLT_ARCTIC_FULL_VOICE         |     Evaluator 1    |     Evaluator 2    |
@@ -47,7 +47,7 @@ MEAN OPINION SCORE           1
 |     4. Game instructions Polus    | 5                  | 5                  |
 |     5.Play Mira   for free        | 5                  | 5                  |
 
-MEAN OPINION SCORE           4.6      
+      
 2. Naturalness
 |     SLT_ARCTIC_FULL_VOICE         |     Evaluator 1    |     Evaluator 2    |
 |-----------------------------------|--------------------|--------------------|

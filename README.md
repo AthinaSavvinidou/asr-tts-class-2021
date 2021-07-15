@@ -26,7 +26,7 @@ List of phrases: 1.Use button.
 |     4. Game instructions Polus    | 1                  | 1                  |
 |     5.Play Mira   for free        | 1                  | 1                  |
 ---------------------------------------------------
-MEAN OPINION SCORE           1      
+     
    
 2. Naturalness
 |     SLT_ARCTIC_DEMO               |     Evaluator 1    |     Evaluator 2    |

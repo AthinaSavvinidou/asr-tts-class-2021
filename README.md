@@ -18,12 +18,13 @@ List of phrases: 1.Use button.
 
 ## EVALUATION RESULTS <a name="paragraph2"></a>
    1. Intelligibility
-   SLT_ARCTIC_DEMO	       Evaluator 1	 Evaluator 2
-1.Use button	               1	                 1
-2.Move right shields	       1	                 1
-3.Select author	             1	                 1
-4. Game instructions Polus	 1	                 1
-5.Play Mira for free	       1	                 1
+ |     SLT_ARCTIC_DEMO               |     Evaluator 1    |     Evaluator 2    |
+|-----------------------------------|--------------------|--------------------|
+|     1.Use button                  | 1                  | 1                  |
+|     2.Move right shields          | 1                  | 1                  |
+|     3.Select author               | 1                  | 1                  |
+|     4. Game instructions Polus    | 1                  | 1                  |
+|     5.Play Mira   for free        | 1                  | 1                  |
 ---------------------------------------------------
 MEAN OPINION SCORE           1      
    

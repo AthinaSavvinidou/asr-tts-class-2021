@@ -60,3 +60,9 @@ List of phrases: 1.Use button.
 |     3.Select author               | 4                  | 3                  |
 |     4. Game instructions Polus    | 5                  | 5                  |
 |     5.Play Mira   for free        | 5                  | 5                  |
+
+MEAN OPINION SCORES
+| MEAN OPINION SCORE |     SLT_ARCTIC_DEMO    |     SLT_ARCTIC_FULL_VOICE    |
+|--------------------|------------------------|------------------------------|
+| Intelligibilty     | 1                      | 4.6                          |
+| Naturalness        | 1                      | 4.5                          |

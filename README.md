@@ -22,15 +22,14 @@ List of phrases: 1.Use button.
     
 
  1. Intelligibility
-|     SLT_ARCTIC_FULL_VOICE         |     Evaluator 1    |     Evaluator 2    |
+
+|     SLT_ARCTIC_DEMO               |     Evaluator 1    |     Evaluator 2    |
 |-----------------------------------|--------------------|--------------------|
-|     1.Use button                  | 4                  | 5                  |
-|     2.Move right shields          | 4                  | 5                  |
-|     3.Select author               | 4                  | 4                  |
-|     4. Game instructions Polus    | 5                  | 5                  |
-|     5.Play Mira   for free        | 5                  | 5                  |
-
-
+|     1.Use button                  | 1                  | 1                  |
+|     2.Move right shields          | 1                  | 1                  |
+|     3.Select author               | 1                  | 1                  |
+|     4. Game instructions Polus    | 1                  | 1                  |
+|     5.Play Mira   for free        | 1                  | 1                  |
 
 2. Naturalness
 

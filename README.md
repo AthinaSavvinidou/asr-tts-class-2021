@@ -1,14 +1,10 @@
 # asr-tts-class-2021
 
-  Table of contents
-1. [SYNTHESIS PART](#introduction)
-2. [PHRASES](#paragraph1) 
-3. [EVALUATION RESULTS](#paragraph2)
 
 ## AUTOMATIC SPEECH RECOGNITION
   ### Project Description
   
-In this project, the automatic recognition of voice commands for the AMONG US game in the German language was attempted. The grammar and dictionary were originally created, as was the list of voice commands
+In this project, was attempted to create an  automatic recognition system, which recognizes voice commands for the AMONG US game in the German language. The grammar and dictionary were originally created, as was the list of voice commands.
   
 
 ## SYNTHESIS PART <a name="introduction"></a>

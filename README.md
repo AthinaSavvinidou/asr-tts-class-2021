@@ -2,10 +2,10 @@
 
 
 ## AUTOMATIC SPEECH RECOGNITION
-  ### Project Description
-  
-In this project, was attempted to create an  automatic recognition system, which recognizes voice commands for the AMONG US game in the German language. The grammar and dictionary were originally created, as well the list of voice commands. The voxforge german dataset, was used as train and development set. 
-  ##run.sh file
+  ### 1. Project Description
+ In this project, was attempted to create an  automatic recognition system, which recognizes voice commands for the AMONG US game in the German language. 
+   ###2.Data Preparation
+   The grammar and dictionary were originally created, as well the list of voice commands. The voxforge german dataset, was used as train and development set. 
   
 
 ## SYNTHESIS PART <a name="introduction"></a>

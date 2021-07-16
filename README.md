@@ -8,6 +8,8 @@
 ## AUTOMATIC SPEECH RECOGNITION
   ### Project Description
   
+In this project, the automatic recognition of voice commands for the AMONG US game in the German language was attempted. The grammar and dictionary were originally created, as was the list of voice commands
+  
 
 ## SYNTHESIS PART <a name="introduction"></a>
 In order to test the competence of the project in this part, 5 phrases have been generated using slt_arctic_demo and slt_arctic_full_voice through merlin engine.

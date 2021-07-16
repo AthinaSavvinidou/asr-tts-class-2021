@@ -6,6 +6,8 @@
 3. [EVALUATION RESULTS](#paragraph2)
 
 ## AUTOMATIC SPEECH RECOGNITION
+  # Project Description
+  
 
 ## SYNTHESIS PART <a name="introduction"></a>
 In order to test the competence of the project in this part, 5 phrases have been generated using slt_arctic_demo and slt_arctic_full_voice through merlin engine.

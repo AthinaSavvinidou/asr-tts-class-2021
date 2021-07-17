@@ -74,4 +74,4 @@ MEAN OPINION SCORES
 | Naturalness        | 1                      | 4.5                          |
 
 ### MOS Improvement suggestions
-
+In order to have a more accurate and objective mean opinion scores, it is useful to create models, which are trained based on actual human MOS ratings. Otherwise, you have to  to hire sufficient amount of evaluators, in order to have representative results. 

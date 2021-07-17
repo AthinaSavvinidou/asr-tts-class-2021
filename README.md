@@ -6,8 +6,9 @@
  In this project, was attempted to create an  automatic recognition system, which recognizes voice commands for the AMONG US game in the German language. 
  
  ### 2.Data Preparation
-The grammar and dictionary were originally created, as well the list of voice commands. The voxforge german dataset, was used as train and development set. With run.sh 
-command the dataset was split in train and dev sets and were created wav.scp, text, utt2spk and spk2utt files, one for each set.
+The grammar and dictionary were originally created, as well the list of voice commands. The run.sh file runs german_data_prep.sh to prepare the train and dev dataset.
+In turn german_data_prep.sh runs prep_tsv.py, which searches for files in the dataset subfolders and creates a pandas dataframe with speaker ids, utterance ids, wav file paths, utterances. Then the pandas dataframe is divided into two dataframes, one for train and one for development, which are sorted based on utterance id. 
+
   
 
 ## SYNTHESIS PART <a name="introduction"></a>

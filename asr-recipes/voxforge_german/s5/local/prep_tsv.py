@@ -55,7 +55,7 @@ df_train[['id', 'client_id']].to_csv(os.path.join(train_folder, "utt2spk"), quot
 dev_folder = 'dev'
 if not os.path.exists(dev_folder):
     os.mkdir(dev_folder)
-df_dev.to_csv(os.path.join(dev_folder, 'train.tsv'), sep='\t', index=False, header=True)
+df_dev.to_csv(os.path.join(dev_folder, 'dev.tsv'), sep='\t', index=False, header=True)
 df_dev[['id', 'path']].to_csv(os.path.join(dev_folder, 'wav.scp'), sep=' ', index=False, header=False)
 df_dev[['id', 'sentence']].to_csv(os.path.join(dev_folder, 'text'), sep='\t', index=False, header=False)
 df_dev[['id', 'client_id']].to_csv(os.path.join(dev_folder, "utt2spk"), quotechar=' ', sep=' ', index=False, header=False)

@@ -15,14 +15,14 @@ In turn german_data_prep.sh runs prep_tsv.py, which searches for files in the da
 In order to test the competence of the project in this part, 5 phrases have been generated using slt_arctic_demo and slt_arctic_full_voice through merlin engine.
 
 
-### PHRASES <a name="paragraph1"></a>
+### Phrases <a name="paragraph1"></a>
 List of phrases: 1.Use button. 
                  2.Move right shields. 
                  3.Select author.
                  4. Game instructions Polus. 
                  5.Play Mira for free.
 
-### EVALUATION RESULTS <a name="paragraph2"></a>
+### Evaluation Results <a name="paragraph2"></a>
 
   
     

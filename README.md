@@ -72,3 +72,6 @@ MEAN OPINION SCORES
 |--------------------|------------------------|------------------------------|
 | Intelligibilty     | 1                      | 4.6                          |
 | Naturalness        | 1                      | 4.5                          |
+
+### MOS Improvement suggestions
+

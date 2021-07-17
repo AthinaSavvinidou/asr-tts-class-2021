@@ -7,10 +7,10 @@
  
  ### 2.Data Preparation
 The grammar and dictionary were originally created, as well the list of voice commands. The run.sh file runs german_data_prep.sh to prepare the train and dev dataset.
-In turn german_data_prep.sh runs prep_tsv.py, which searches for files in the dataset subfolders and creates a pandas dataframe with speaker ids, utterance ids, wav file paths, utterances. Then the pandas dataframe is divided into two dataframes, one for train and one for development, which are sorted based on utterance id. 
+In turn german_data_prep.sh runs prep_tsv.py, which searches for files in the dataset subfolders and creates a pandas dataframe with speaker ids, utterance ids, wav file paths, utterances. Then the pandas dataframe is divided into two dataframes, one for train and one for development, which are sorted based on utterance id. From these two dataframes two train / dev directories are created in which the .tsv, wav.scp, utt2spk, spk2utt and text files are stored. Then the german_data_prep.sh runs validation on the files of these two directories.
+
 
   
-
 ## SYNTHESIS PART <a name="introduction"></a>
 In order to test the competence of the project in this part, 5 phrases have been generated using slt_arctic_demo and slt_arctic_full_voice through merlin engine.
 

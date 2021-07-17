@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # Change this location to somewhere where you want to put the data.
-src_data=/other/data/voxforge_german/
+src_data=/data/voxforge_german/
 
 
 . ./cmd.sh
@@ -16,19 +16,11 @@ mkdir -p data
 
 #Data preparation
 #1.parts:Train vs test vs dev datasets
-train_set=$src_data/voxforge_train.fileids
-dev_set=$src_data/voxforge_test.fileids
-test_set=$src_data
 #2.for each of these parts we need to have a seperate subfoldes with the 
 #following files in it:
 #wav.scp text utt2spk spk2utt 
-
-if [ $stage -le 1 ]; then
-  # format the data as Kaldi data directories
-  for part in train dev set; do
-    # use underscore-separated names in data directories.
-    local/german_data_prep.sh $src_data ${part}_set data/$part
-  done
+# format the data as Kaldi data directories
+local/german_data_prep.sh
 
 #   local/prepare_dict.sh --stage 3 --nj 30 --cmd "$train_cmd" \
 #     data/local/lm data/local/lm data/local/dict_nosp
